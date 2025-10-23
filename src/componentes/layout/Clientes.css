@@ -1,0 +1,21 @@
+.clientes {
+  .logos {
+    display: flex;
+    flex-wrap: wrap; /* para que bajen a otra línea si no caben */
+    gap: 30px; /* espacio entre logos */
+    justify-content: center; /* centrados horizontalmente */
+    align-items: center; /* centrados verticalmente */
+  }
+
+  .logos .logo {
+    border-radius: 5px;
+    max-width: 180px;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .logos .logo {
+      max-width: 130px;
+    }
+  }
+}
