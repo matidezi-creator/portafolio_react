@@ -33,6 +33,11 @@
       background: var(--primario);
       color: #fff;
       border: 1px solid transparent;
+
+      /* Modo oscuro */
+      body.dark & {
+        background: var(--darkxprimario);
+      }
     }
 
     @media screen and (max-width: 992px) {
@@ -124,6 +129,10 @@
           width: 70%;
           color: var(--primario);
           transition: 0.3s ease all;
+
+          body.dark & {
+            color: var(--darkxprimario);
+          }
         }
       }
     }

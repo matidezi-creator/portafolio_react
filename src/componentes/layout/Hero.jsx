@@ -8,8 +8,8 @@ const Hero = () => {
                     <h3 className="titulo">
                         <span>Hola!</span>Soy Matías 
                     </h3>
-                    <p className="subtitulo">Desarrollador web junior, freelancer y <br />
-                       creador de proyectos personales.</p>
+                    <p className="subtitulo">Desarrollador web junior, freelancer <br />
+                       Me gusta crear proyectos simples, claros y funcionales mientras sigo creciendo y aprendiendo cada día.</p>
                        <div className="botones">
                         <a href="#trabajos" className="boton transparente">Ver Trabajos
                             <div className="icono">
@@ -33,7 +33,7 @@ const Hero = () => {
                 </div>
 
                 <div className='video-conteiner'>
-                    <video src="./assets/background.mp4" loop autoPlay className='video' type="video/mp4"></video>
+                    <video src="/background.mp4" loop autoPlay muted className="video" type="video/mp4"></video>
                 </div>
             </section>
         </>

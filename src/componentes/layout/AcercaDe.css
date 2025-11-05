@@ -1,6 +1,8 @@
 .acercade {
   display: flex;
   justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .acercade .grid {
@@ -41,29 +43,44 @@
 
 /* Columna 2 - texto */
 .acercade .grid .col-2 {
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  text-align: left;
 }
 
 .acercade .grid .col-2 .pretitulo {
   color: var(--primario);
   font-size: 16px;
   font-weight: 600;
+
+  .dark & {
+    color: var(--darkxprimario);
+  }
 }
 
 .acercade .grid .col-2 .titulo {
   font-size: 30px;
+  gap: 5px;
 }
 
 .acercade .grid .col-2 .resumen {
   color: var(--shade-7);
   line-height: 32px;
+  gap: 5px;
+  text-align: left;
+}
+
+/* Espaciado general entre párrafos */
+.acercade .grid .col-2 .resumen p {
+  margin: 0 0 16px; /* 16px abajo entre párrafos */
 }
 
 .acercade .grid .col-2 .resumen br {
   margin-bottom: 20px;
+  gap: 5px;
 }
 
 .acercade .grid .col-2 .resumen .dark {

@@ -6,21 +6,23 @@ const AcercaDe = () => {
             <div className="grid">
                 <div className="col-1">
                     <div className="fotos">
-                        <img src="./assets/acerca-de-1.png" className="foto" alt="Foto 1" />
+                        <img src="./assets/acerca-de-1.jpg" className="foto" alt="Foto 1" />
                         <img src="./assets/acerca-de-2.png" className="foto" alt="Foto 2" />
                     </div>
                 </div>
 
                 <div className="col-2">
                     <h4 className="pretitulo">Acerca de mí</h4>
-                    <h3 className="titulo">Por qué deberías darme tu primer proyecto</h3>
-                    <p className="resumen">
-                        ¡Hola! Soy Matías, un freelancer junior con muchas ganas de crecer y aprender en cada proyecto. 
-                        Con un enfoque creativo y minucioso, transformo ideas en experiencias únicas.
-                        Mi objetivo es superar tus expectativas en cada colaboración, brindando soluciones que perduren.<br />
-                        Aunque estoy comenzando mi carrera profesional, pongo todo mi esfuerzo en entregar resultados de calidad y atención al detalle. 
-                        ¡Trabajemos juntos para crear algo increíble!
-                    </p>
+                    <h3 className="titulo">Quien soy como desarrollador junior</h3>
+                    <div className="resumen">
+                        <p>Soy Matías, desarrollador web junior con enfoque en crear sitios modernos, claros y funcionales. Me encuentro en pleno crecimiento profesional, y cada proyecto que realizo es una oportunidad para aprender, mejorar y entregar resultados de calidad. <br /></p>
+                        
+                        <p>Me caracterizo por ser detallista, curioso y comprometido. Disfruto comprender las necesidades de cada proyecto, planificar y construir soluciones eficientes, priorizando la experiencia del usuario y el rendimiento. <br /></p>
+                        
+                        <p>Aunque estoy dando mis primeros pasos en el mundo del desarrollo, aporto dedicación, responsabilidad y una mentalidad orientada a la mejora constante. Mi objetivo es construir proyectos sólidos, confiables y que generen valor real para las personas y los negocios que los utilizan. <br /></p>
+                        
+                        <p>Trabajemos juntos para crear algo increíble.</p>
+                    </div>
                     <a href="#contacto" className="boton">
                         Mandame un mensaje
                         <span className="icono">

@@ -20,10 +20,10 @@
   --shade-9: #0d0d0d;
   --shade-10: #000000;
 
-  --primario: #d83a3a;
-  --primario-hover: #bf3030;
-  --darkxprimario: #ffd50d;
-  --darkxprimario: #fbc400;
+  --primario: #0077ff;
+  --primario-hover: #0365d4;
+  --darkxprimario: #33ccff;
+  --darkxprimario-hover: #15b3e8;
 }
 
 /* Body y modo oscuro */
@@ -80,8 +80,14 @@ body.dark a {
   background: var(--primario-hover);
 }
 
+/* Modo oscuro botones */
 body.dark .boton {
+  background: var(--darkxprimario);
   color: #fff;
+}
+
+body.dark .boton:hover {
+  background: var(--darkxprimario-hover);
 }
 
 body.dark .boton.transparente {

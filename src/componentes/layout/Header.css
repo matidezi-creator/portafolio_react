@@ -16,32 +16,31 @@
   font-size: 34px;
   font-family: 'Merriweather', serif;
   color: var(--shade-8);
+}
 
-  .dark & {
-    color: var(--shade-1);
-  }
+body.dark .titulo {
+  color: var(--shade-1);
 }
 
 .subtitulo {
   font-size: 16px;
-  color: var(--primario);
+  color: var(--primario); /* color normal */
   font-weight: 500;
+}
 
-  .dark & {
-    color: #ffd50d;
-  }
+body.dark .subtitulo {
+  color: var(--darkxprimario); /* color en modo oscuro */
 }
 
 .navbar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* centrado */
+  justify-content: center;
   align-items: center;
   gap: 40px;
 }
 
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 768px) {
   .header {
     .logo {

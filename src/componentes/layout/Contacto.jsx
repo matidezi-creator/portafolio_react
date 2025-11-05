@@ -6,6 +6,7 @@ const Contacto = () => {
     const [correo, setCorreo] = useState ('');
     const [mensaje, setMensaje] = useState ('');
     const [error, setError] = useState (null);
+    const [enviado, setEnviado] = useState(false);
 
 
     const regEx = {
@@ -51,9 +52,17 @@ const Contacto = () => {
 
         if (nombreValido && correoValido && mensajeValido){
             setError(null);
+            setEnviado(true); // ✅ activamos mensaje de éxito
+            setTimeout(() => setEnviado(false), 4000); // (opcional) lo ocultamos después de 4 seg
+
+            // limpiar campos
+            setNombre('');
+            setCorreo('');
+            setMensaje('');
 
             e.target.submit();
-        };
+        }
+
     };
 
 
@@ -64,7 +73,7 @@ const Contacto = () => {
                     <h3 className="titulo">Hagamos tu idea una realidad.</h3>
                     <p className="subtitulo">Escribeme y construyamos el nogocio de tus sueños.</p>
                 </div>
-                <form action="https://formspree.io/f/mldpznbq" method='post' className="formulario" onSubmit={handleSubmit}>
+                <form action="https://formspree.io/f/xpwogbly" method='post' className="formulario" onSubmit={handleSubmit}>
                     <div className="grupo-formulario">
                         <label htmlFor="nombre">Nombre</label>
                         <input type="text" name="nombre" id="nombre" placeholder="Nombre" value={nombre} onChange={(e) => handleInput(e, 'nombre')}/>
@@ -81,6 +90,11 @@ const Contacto = () => {
                         <div className="grupo-formulario error">
                             <p>{error}</p>
                         </div>    
+                    )}
+                    {enviado && (
+                        <div className="grupo-formulario exito">
+                            <p>Mensaje enviado con éxito</p>
+                        </div>
                     )}
                     <div className="grupo-formulario enviar">
                     <div>
