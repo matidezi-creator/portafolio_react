@@ -94,29 +94,78 @@
   gap: 10px;
 }
 
-/* Responsive */
-@media screen and (max-width: 576px) {
+/* MOBILE: Fotos arriba centradas + sin sticky */
+@media screen and (max-width: 768px) {
   .acercade .grid {
     grid-template-columns: 1fr;
   }
 
+  /* Fotos arriba */
   .acercade .grid .col-1 .fotos {
-    margin-bottom: 60px;
+    position: relative; /* desactivamos sticky */
+    top: auto;
     justify-content: center;
-    position: relative;
+    margin-bottom: 40px;
   }
 
+  /* Foto grande */
   .acercade .grid .col-1 .fotos .foto:nth-child(1) {
-    width: 60%;
+    width: 70%;
+    margin: auto;
   }
 
+  /* Foto chica */
   .acercade .grid .col-1 .fotos .foto:nth-child(2) {
-    width: 40%;
+    width: 45%;
     left: 55%;
-    bottom: -20%;
+    bottom: -22%;
   }
 
-  .acercade .grid .col-2 .titulo {
+  /* Centrar texto y botón */
+  .acercade .grid .col-2 {
+    align-items: center;
     text-align: center;
+  }
+
+  /* Mantener "Acerca de mí" alineado a la izquierda */
+  .acercade .grid .col-2 .pretitulo {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .acercade .grid .col-2 .boton {
+    align-self: center;
+  }
+
+  /* Contenedor más tipo libro */
+  .acercade .grid .col-2 {
+    width: 92%;
+    margin: auto;
+    padding: 0 6px;
+    text-align: center; /* títulos y flow centrado */
+  }
+  /* Títulos centrados */
+  .acercade .grid .col-2 .titulo,
+  .acercade .grid .col-2 .pretitulo {
+    text-align: center;
+  }
+
+  /* Texto como libro pero sin justificar raro */
+  .acercade .grid .col-2 .resumen {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 580px; /* ancho de columna tipo libro */
+  }
+
+  .acercade .grid .col-2 .resumen p {
+    margin-bottom: 18px;
+  }
+
+  /* Botón centrado */
+  .acercade .grid .col-2 .boton {
+    align-self: center;
+    margin-top: 15px;
   }
 }
