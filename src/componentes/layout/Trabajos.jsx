@@ -47,7 +47,7 @@ const Trabajos = () => {
                         { id: 'diseño-web', label: 'Diseño Web' },
                         { id: 'desarrollo-web', label: 'Desarrollo Web' },
                         { id: 'aplicaciones-moviles', label: 'Aplicaciones Móviles' },
-                        { id: 'desarrollo-software', label: 'Desarrollo Software' },
+                        //{ id: 'desarrollo-software', label: 'Desarrollo Software' },
                     ].map(({ id, label }) => (
                         <label htmlFor={id} key={id}>
                             <input

@@ -3,7 +3,7 @@ const trabajos = [
 		id: 1,
 		categoria: 'desarrollo-web',
 		thumb: {
-			url: './assets/trabajos/diseño-1.png',
+			url: './assets/trabajos/pizzeria.png',
 			alt: 'Pizzería Básico Paz',
 		},
 		info: {
@@ -34,7 +34,7 @@ const trabajos = [
 						una experiencia cercana, visualmente atractiva y fácil de navegar desde cualquier dispositivo.
 					</p>
 
-					<img loading="lazy" src="./assets/trabajos/2.png" alt="Vista previa del sitio Pizzería Básico Paz" />
+					<img loading="lazy" src="./assets/trabajos/pizza2.png" alt="Vista previa del sitio Pizzería Básico Paz" />
 
 					<p>
 						El sitio incluye una sección de menú con precios, galería fotográfica de productos y locales, además de
@@ -42,7 +42,7 @@ const trabajos = [
 						tradicional que refuerza la identidad italiana del proyecto.
 					</p>
 
-					<img loading="lazy" src="./assets/trabajos/3.png" alt="Diseño responsivo del sitio Pizzería Básico Paz" />
+					<img loading="lazy" src="./assets/trabajos/pizza4.png" alt="Diseño responsivo del sitio Pizzería Básico Paz" />
 
 					<p>
 						<b>Tecnologías utilizadas:</b> <br />
@@ -63,7 +63,7 @@ const trabajos = [
 		id: 2,
 		categoria: 'desarrollo-web',
 		thumb: {
-			url: './assets/trabajos/diseño-2.png',
+			url: './assets/trabajos/cafe.png',
 			alt: 'Cafè L’Antic & Nou',
 		},
 		info: {
@@ -94,7 +94,7 @@ const trabajos = [
 						reforzando la identidad del local a través de su estética y estructura.
 					</p>
 
-					<img loading="lazy" src="./assets/trabajos/2.png" alt="Vista previa del sitio Cafè L’Antic & Nou" />
+					<img loading="lazy" src="./assets/trabajos/cafe1.jpg" alt="Vista previa del sitio Cafè L’Antic & Nou" />
 
 					<p>
 						El proyecto se centra en transmitir la calidez del café mediante una interfaz simple, tipografía amable
@@ -102,7 +102,7 @@ const trabajos = [
 						para ofrecer una navegación clara y fluida desde cualquier dispositivo.
 					</p>
 
-					<img loading="lazy" src="./assets/trabajos/3.png" alt="Diseño responsive del sitio Cafè L’Antic & Nou" />
+					<img loading="lazy" src="./assets/trabajos/cafe2.jpg" alt="Diseño responsive del sitio Cafè L’Antic & Nou" />
 
 					<p>
 						<b>Tecnologías utilizadas:</b><br />
@@ -121,9 +121,9 @@ const trabajos = [
 	},
 	{
 	id: 3,
-	categoria: 'desarrollo-web',
+	categoria: 'diseño-web',
 	thumb: {
-		url: './assets/trabajos/diseño-3.png',
+		url: './assets/trabajos/trace.png',
 		alt: 'Startup Trace',
 	},
 	info: {
@@ -154,7 +154,7 @@ const trabajos = [
 					mediante un diseño limpio, profesional y centrado en la conversión.
 				</p>
 
-				<img loading="lazy" src="./assets/trabajos/2.png" alt="Vista previa del sitio Startup Trace" />
+				<img loading="lazy" src="./assets/trabajos/1.png" alt="Vista previa del sitio Startup Trace" />
 
 				<p>
 					El proyecto fue desarrollado como práctica de diseño web, priorizando la organización del contenido, el uso de
@@ -162,7 +162,7 @@ const trabajos = [
 					Se aplicaron principios modernos de UI/UX para mejorar la legibilidad y experiencia del usuario.
 				</p>
 
-				<img loading="lazy" src="./assets/trabajos/3.png" alt="Sección de precios de Startup Trace" />
+				<img loading="lazy" src="./assets/trabajos/apps-2.png" alt="Sección de precios de Startup Trace" />
 
 				<p>
 					<b>Tecnologías utilizadas:</b><br />
