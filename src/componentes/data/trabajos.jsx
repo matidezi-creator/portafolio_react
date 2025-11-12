@@ -128,7 +128,7 @@ const trabajos = [
 	},
 	info: {
 		nombre: 'Startup Trace',
-		categoria: 'Desarrollo Web',
+		categoria: 'Diseño Web',
 		contenido: (
 			<>
 				<p>
